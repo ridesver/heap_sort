@@ -73,7 +73,7 @@ int main()
 	if (read(a, b)) 
 	{
 		cout << "Result: \n";
-		heap_sort(a, b);;
+		heap_sort(a, b);
 		for (int i = 0; i < b; ++i) 
 		{
 			cout << a[i] << " ";
